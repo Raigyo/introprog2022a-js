@@ -15,12 +15,13 @@ const addAnonym = function (x, y) {
 
 /* Fonctions flêchées / arrow functions (anonyme) avec expression de fonction */
 
-// console.log(addArrow(6, 6)); // Cannot access 'addArrow' before initialization
+// console.log(addArrow(6, 6)); // 12
 
 const addArrow = (x, y) => {
   return x + y;
 };
 
+console.log(addArrow(6, 6)); // Cannot access 'addArrow' before initialization
 // const addArrow = (x, y) => x + y;
 
 // console.log(addArrow(6, 6)); // 12

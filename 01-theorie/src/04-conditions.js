@@ -9,7 +9,7 @@ if (time < 10) {
 } else {
   greeting = "Good evening";
 }
-console.log(greeting);
+// console.log(greeting);
 
 /*
   Opérateur ternaire / ternary operator :
@@ -33,7 +33,8 @@ if (age >= 18) {
 let age2 = 13;
 let message2;
 
-message2 = age >= 18 ? "Vous pouvez conduire." : "ous ne pouvez pas conduire.";
+message2 =
+  age2 >= 18 ? "Vous pouvez conduire." : "Vous ne pouvez pas conduire.";
 
 // console.log(message2);
 

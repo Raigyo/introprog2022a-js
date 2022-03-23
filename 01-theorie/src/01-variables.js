@@ -57,4 +57,4 @@ let textToDisplay = `Je suis ${myName5} le frère de ${myName6} et j'ai ${
   myAge2 + 1
 } ans!`;
 
-// console.log(textToDisplay);
+console.log(textToDisplay);

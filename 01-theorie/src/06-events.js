@@ -11,9 +11,9 @@ b1.addEventListener("click", function () {
   alert("Bouton cliqué");
 });
 d1.addEventListener("mouseover", changeColor);
-d1.addEventListener("mouseover", function () {
-  this.style.fontWeight = "bold";
-});
+// d1.addEventListener("mouseover", function () {
+//   this.style.fontWeight = "bold";
+// });
 
 //On supprime un évènement
-d1.removeEventListener("mouseover", changeColor);
+d1.removeEventListener("mouseleave", changeColor);
